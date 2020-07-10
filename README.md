@@ -114,9 +114,8 @@ The schematic and the layout of the 2 input analog multiplexer is given below:
 ## Characteristics
 Two different inputs were given to the analog multiplexer model and the characteristics of pre and post layout  
 were compared. Very slight glitches and some little variations were seen in the post layout characteristics.  
-The respective spice files for pre layout and post layout (both 2 input and 4 input multiplexer) is available  
-in the folder **Netlist** in the repositary. Follow the steps mentioned in the **Viewing Characteristics** part  
-of README.
+The respective spice files for pre layout and post layout is available in the folder **Netlist** in the repositary.  
+Follow the steps mentioned in the **Viewing Characteristics** part of README.
 
 <img src="Step_Images/21prelayoutcharac.PNG" width="1101" height="580" >
 
