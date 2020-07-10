@@ -1,8 +1,7 @@
 
 # avsdmux2x1_3v3
-**avsdmux2x1_3v3** 2 input analog multiplexer. The entire  design is done with the help of OSU 180nm library.  
-Transmission gates were used to design the analog multiplexer. The height, width and area of avsdmux4x1_3v3  
-and avsdmux2x1_3v3 is given below.
+**avsdmux2x1_3v3** is a 2 input analog multiplexer. The entire  design is done with the help of OSU 180nm library.  
+Transmission gates were used to design the analog multiplexer. The height, width and area of avsdmux2x1_3v3 is given below.
 
 <img src="Step_Images/heightwidth.PNG" width="400" height="139" >
 
@@ -93,8 +92,8 @@ largely used for academic purpose and also used by small companiies.
 ## Viewing Layout
 1. After cloning the repositary copy the layout files (.mag) in the folder Layout to some location.
 2. Right click on the new folder where the layout files are saved and click ```Open in terminal```.
-3. Say, you want to open the layout of 41mux. Then type the following command and press enter  
-   ```magic -T SCN6M_SUBM.10.tech 41mux.mag```
+3. Say, you want to open the layout of 21mux. Then type the following command and press enter  
+   ```magic -T SCN6M_SUBM.10.tech 21mux.mag```
 4. If you wish to view the spice file of the layout, open the tkcon window and enter the following  
    commands one by one:
          ```save```  
@@ -105,7 +104,7 @@ largely used for academic purpose and also used by small companiies.
     To run the post layout simulations, you have to add certain lines to the spice file extracted  
     such as library file include commands, voltage descriptions of input and power pins and simulation  
     commands such as **tran and control** commands. Such spice files are already made availabel in the 
-    folder netlist.
+    folder **NETLIST**.
    
 ## Pre Layout and Post Layout characteristics
 The schematic and the layout of the 2 input analog multiplexer is given below:
