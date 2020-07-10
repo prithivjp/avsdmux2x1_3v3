@@ -4,7 +4,7 @@
 Transmission gates were used to design the analog multiplexer. The height, width and area of avsdmux4x1_3v3  
 and avsdmux2x1_3v3 is given below.
 
-<img src="Step_Images/heightwidth.PNG" width="700" height="139" >
+<img src="Step_Images/heightwidth.PNG" width="400" height="139" >
 
 ## Symbol and Pin Description
 *In a 2 input analog multiplexer there is a total of 6 pins*
@@ -108,34 +108,20 @@ largely used for academic purpose and also used by small companiies.
     folder netlist.
    
 ## Pre Layout and Post Layout characteristics
-The schematic and the layout of the 2 input and 4 input analog multiplexer are given below:
+The schematic and the layout of the 2 input analog multiplexer is given below:
 
 <img src="Step_Images/21prepost.PNG" width="900" height="580" >
 
-<img src="Step_Images/41prepost.PNG" width="900" height="580" >
-
-The layout image with supply rails is available in the folder **Layout** in the repositary.
-The inputs of the multiplexer are basically the outputs of DAC and Bandgap Reference. Such models were created  
-by combining the models of my peers using LTspice. The spice netlist corresponding to the model is available in  
-folder Netlist named **model.cir**.Due to unavailability of model Output of Bandgap Reference 2 is taken as a  
-constant voltage source and the model is checked. Block diagram and output waveforms are shown below.
-
-<img src="Step_Images/block.PNG" width="600" height="300" >
-<img src="Step_Images/prelaout.PNG" width="600" height="300" >   
-
 ## Characteristics
-Four different inputs were given to the analog multiplexer model and the characteristics of pre and post layout  
+Two different inputs were given to the analog multiplexer model and the characteristics of pre and post layout  
 were compared. Very slight glitches and some little variations were seen in the post layout characteristics.  
 The respective spice files for pre layout and post layout (both 2 input and 4 input multiplexer) is available  
 in the folder **Netlist** in the repositary. Follow the steps mentioned in the **Viewing Characteristics** part  
 of README.
 
-<img src="Step_Images/prelayoutcharac.PNG" width="1101" height="580" >
+<img src="Step_Images/21prelayoutcharac.PNG" width="1101" height="580" >
 
-<img src="Step_Images/postlayoutcharac.PNG" width="1099" height="580" >
-
-Above characteristics corresponds to 4 input Multiplexer. Pre layout and Postlayout characteristics of a 2  
-input Multiplexer is available in the repositary (Folder name: Characteristics).
+<img src="Step_Images/21postlayoutcharac.PNG" width="1099" height="580" >
 
 For any dissimilarities found between the pre layout and postlayout characteristics or any difficulties with  
 respect to IP Usage, contact the administrator or report in issues section of github.
